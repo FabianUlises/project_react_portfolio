@@ -22,6 +22,7 @@ button {
     background: transparent;
     color: white;
     transition: all 250ms ease;
+    font-family: 'Dosis', sans-serif;
     &:hover{
         color: white;
     }
