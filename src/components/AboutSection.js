@@ -1,8 +1,11 @@
 import React from "react";
+import home1 from '../img/home1.png';
+import styled from "styled-components";
+
 
 const AboutSection = () => {
     return(
-        <div>
+        <About>
             <div className="desc">
                 <div className="desc__title">
                     <div className="hide">
@@ -22,9 +25,19 @@ const AboutSection = () => {
             </div>
             <div className="image">
                 <h3>image</h3>
-                {/* <img src={home1} alt="guy with camera" /> */}
+                <img src={home1} alt="guy with camera" />
             </div>
-        </div>
+        </About>
     )
 }
+
+const About = styled.div`
+ min-height: 90vh;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 5rem 10rem;
+ color: white;
+ background-color: rebeccapurple;
+`;
 export default AboutSection;
