@@ -21,8 +21,10 @@ const AboutSection = () => {
                 <button>Contact Us</button>
             </div>
             <div className="image">
-                <img src={home1} alt="guy with camera" />
+                <h3>image</h3>
+                {/* <img src={home1} alt="guy with camera" /> */}
             </div>
         </div>
     )
 }
+export default AboutSection;
