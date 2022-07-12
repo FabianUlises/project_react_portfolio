@@ -1,9 +1,9 @@
 import React from "react";
-import clock from '../img/clock.svg';
-import diaphragm from '../img/diaphragm.svg';
-import money from '../img/money.svg';
-import teamwork from '../img/teamwork.svg';
-import home2 from '../img/home2.svg';
+// import clock from '../img/clock.svg';
+// import diaphragm from '../img/diaphragm.svg';
+// import money from '../img/money.svg';
+// import teamwork from '../img/teamwork.svg';
+// import home2 from '../img/home2.svg';
 const ServicesSection = () => {
     return(
         <div className="services">
@@ -12,28 +12,28 @@ const ServicesSection = () => {
                 <div className="cards">
                     <div className="card">
                         <div className="card__icon">
-                            {/* <img src={clock} /> */}
+                            {/* <img src={clock} alt='clock icon'/> */}
                             <h3>Efficient</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="card"> 
                         <div className="card__icon">
-                            {/* <img src={clock} /> */}
+                            {/* <img src={money} alt='teamwork'/> */}
                             <h3>TeamWork</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="card">
                         <div className="card__icon">
-                            {/* <img src={clock} /> */}
+                            {/* <img src={diaphragm} alt='diaphragm'/> */}
                             <h3>Diaphragm</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="card">
                         <div className="card__icon">
-                            {/* <img src={clock} /> */}
+                            {/* <img src={money} alt='money'/> */}
                             <h3>Affordable</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
